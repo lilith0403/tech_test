@@ -2,23 +2,23 @@ POST https://tech-test-rzw4.onrender.com/person
 Content-Type: application/json
 
 {
-    "name": "luzais",
-    "email": "junior@gmail.com",
-    "birth": "03052500"
+    "name": "Lucca",
+    "email": "user123@gmail.com",
+    "birth": "03/05/2020"
 }
 
 ###
 GET https://tech-test-rzw4.onrender.com/person
 
 ###
-PATCH https://tech-test-rzw4.onrender.com/person/65a4de589c574e53d0b1ac22
+PATCH https://tech-test-rzw4.onrender.com/person/65a5bb551a6757f1df1d2a3a
 Content-Type: application/json
 
 {
-    "name": "Lucca4",
-    "email": "lucca0403@gmail.com",
-    "birth": "04032003"
+    "name": "Vitor",
+    "email": "user123@gmail.com",
+    "birth": "03/05/2020"
 }
 
 ###
-DELETE https://tech-test-rzw4.onrender.com/person/65a4e9c9cb9d8d68c3f049bb
+DELETE https://tech-test-rzw4.onrender.com/person/65a5bb551a6757f1df1d2a3a
