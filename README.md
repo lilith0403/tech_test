@@ -1,6 +1,6 @@
-# Projeto de API com MongoDB e Express
+# CRUDE API com NodeJS(Express) e MongoDB
 
-Este projeto é uma RESTful API básica construída com Node.js, Express e MongoDB para gerenciar informações sobre pessoas. Ele oferece operações CRUD (Create, Read, Update, Delete) para a entidade "Person".
+Este projeto é uma REST API básica construída com Node.js, Express e MongoDB para gerenciar informações sobre usuários. Ele oferece operações CRUD (Create, Read, Update, Delete) para a entidade "Person".
 
 ## Recursos utilizados
 
@@ -8,6 +8,14 @@ Este projeto é uma RESTful API básica construída com Node.js, Express e Mongo
 2. Postman (Programa de requisições)
 3. REST Client (Extensão do VScode para testar as requsições)
 4. Render (Utilizado para fazer Deploy da aplicação)
+
+## Dependências Principais
+
+1. Express: Framework para Node.js.
+2. Mongoose: ODM (Object-Document Mapper) para MongoDB.
+3. dotenv: Carregamento de variáveis de ambiente a partir de um arquivo.
+4. nodemon: Atualização do servidor em tempo real
+
 
 ## Configuração Inicial
 
@@ -46,10 +54,10 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=humao.r
 https://www.postman.com/downloads/
 ```
 
-5. Você pode acessar o servidor por de maneira local ou online por meio do Render
+5. Você pode acessar o servidor de modo local (localhost:3333) ou online por meio do Render
 
 ```bash
-https://dataside-project.onrender.com/person
+https://tech-test-rzw4.onrender.com/person
 ```
 
 ## Executando a Aplicação
@@ -58,63 +66,64 @@ Execute o seguinte comando para iniciar o servidor:
 
 ```bash
 npm start
-
-O servidor estará acessível em http://localhost:sua_porta_preferida.
 ```
+O servidor estará disponível tanto no localhost:<3333> quanto no endereço: https://tech-test-rzw4.onrender.com/person
 
-# Rotas API
-## POST
+## Rotas API
+### Criação de Registro de Usuário (POST)
 
 ```bash
-POST https://dataside-project.onrender.com/person
+POST https://tech-test-rzw4.onrender.com/person
 Content-Type: application/json
 
 {
-    "name": "luzais",
-    "email": "junior@gmail.com",
-    "birth": "03052500"
+    "name": "Lucca",
+    "email": "user123@gmail.com",
+    "birth": "03/05/2020"
 }
 
 ```
-## Recuperação de Todas as Pessoas (GET)
+### Recuperação de Todos os Usuários (GET)
 
 ```bash
-GET https://dataside-project.onrender.com/person
+GET https://tech-test-rzw4.onrender.com/person
 ```
-## Recuperação de Um Unico Usuário (GET)
+### Recuperação de Um Unico Usuário (GET)
 
 ```bash
-GET https://dataside-project.onrender.com/person/<id>
+GET https://tech-test-rzw4.onrender.com/person/<id>
 ```
 
-## Atualização de Pessoa (PATCH)
+### Atualização de Cadastro de Usuário (PATCH)
 
 ```bash
-PATCH https://dataside-project.onrender.com/person/<id>
+PATCH https://tech-test-rzw4.onrender.com/person/<id>
 Content-Type: application/json
 {
-    "name": "Lucca4",
-    "email": "lucca0403@gmail.com",
-    "birth": "04032003"
+    "name": "Vitor",
+    "email": "user123@gmail.com",
+    "birth": "03/05/2020"
 }
 ```
-## Exclusão de Pessoa (DELETE)
+### Exclusão de Usuários (DELETE)
 
 ```bash
-DELETE https://dataside-project.onrender.com/person/<id>
+DELETE https://tech-test-rzw4.onrender.com/person/<id>
 ```
 
-# Estrutura do Projeto
+## Estrutura do Projeto
 
-server.js: Arquivo principal para configurar e iniciar o servidor.
-models/Person.js: Definição do modelo de dados da pessoa usando Mongoose.
-routes/personRoutes.js: Rotas da API relacionadas a pessoas.
+1. index.js: Arquivo principal para configurar e iniciar o servidor.
+2. models/Person.js: Definição do modelo de dados da pessoa usando Mongoose.
+3. routes/personRoutes.js: Rotas da API relacionadas a pessoas.
+4. .env: Variáveis de ambiente para o acesso so MongoDBAtlas.
 
-# Dependências Principais
+## Conclusão
 
-Express: Framework web para Node.js.
-Mongoose: ODM (Object-Document Mapper) para MongoDB.
-dotenv: Carregamento de variáveis de ambiente a partir de um arquivo.
+Em síntese, o projeto de API com MongoDB e Express proporciona uma implementação eficiente de operações CRUD para a entidade "Person". A configuração inicial é bem elaborada, otimizando a aplicação com o uso de tecnologias como MongoDB Atlas, Postman e Render. As rotas API são claramente definidas, facilitando o entendimento, e a estrutura do projeto segue boas práticas, com ênfase nas principais dependências, Express e Mongoose.
+
+
+
 
 
 
