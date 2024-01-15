@@ -70,7 +70,7 @@ npm start
 O servidor estará disponível tanto no localhost:<3333> quanto no endereço: https://tech-test-rzw4.onrender.com/person
 
 # Rotas API
-## POST
+## Criação de Registro de Usuário (POST)
 
 ```bash
 POST https://tech-test-rzw4.onrender.com/person
