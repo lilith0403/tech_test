@@ -1,4 +1,4 @@
-# Projeto de API com MongoDB e Express
+# CRUDE API com NodeJS(Express) e MongoDB
 
 Este projeto é uma REST API básica construída com Node.js, Express e MongoDB para gerenciar informações sobre usuários. Ele oferece operações CRUD (Create, Read, Update, Delete) para a entidade "Person".
 
