@@ -1,4 +1,4 @@
-POST https://dataside-project.onrender.com/person
+POST https://tech-test-rzw4.onrender.com/person
 Content-Type: application/json
 
 {
@@ -8,10 +8,10 @@ Content-Type: application/json
 }
 
 ###
-GET https://dataside-project.onrender.com/person
+GET https://tech-test-rzw4.onrender.com/person
 
 ###
-PATCH https://dataside-project.onrender.com/person/65a4de589c574e53d0b1ac22
+PATCH https://tech-test-rzw4.onrender.com/person/65a4de589c574e53d0b1ac22
 Content-Type: application/json
 
 {
@@ -21,4 +21,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE https://dataside-project.onrender.com/person/65a4e9c9cb9d8d68c3f049bb
+DELETE https://tech-test-rzw4.onrender.com/person/65a4e9c9cb9d8d68c3f049bb
