@@ -21,23 +21,23 @@ Este projeto é uma REST API básica construída com Node.js, Express e MongoDB 
 
 1. Instale as dependências usando o npm:
 
-    ```bash
-    npm install express mongoose nodemon 
-    ```
+```bash
+npm install express mongoose nodemon 
+```
 
-2. Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
-
-    ```dotenv
-    DB_USER=seu_usuario_do_MongoDBAtlas
-    DB_PASSWORD=sua_senha_do_MongoDBAtlas
-    ```
-
-    Certifique-se de substituir `seu_usuario_do_MongoDBAtlas` e `sua_senha_do_MongoDBAtlas` pelas suas credenciais MongoDBAtlas.
-
-3. Crie um banco de dados no MongoDBAtlas
+2. Crie um banco de dados no MongoDBAtlas
 ```bash
 https://www.mongodb.com/atlas/database
 ```
+
+3. Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
+
+```dotenv
+DB_USER=seu_usuario_do_banco_de_dados_no_MongoDBAtlas
+DB_PASSWORD=sua_senha_do_banco_de_dados_no_MongoDBAtlas
+```
+
+Certifique-se de substituir `seu_usuario_do_banco_de_dados_no_MongoDBAtlas` e `sua_senha_do_banco_de_dados_no_MongoDBAtlas` pelas suas credenciais MongoDBAtlas.
 
 4. Instale a extensão REST Client ou faça o download do Postman
 
