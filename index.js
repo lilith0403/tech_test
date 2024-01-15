@@ -32,7 +32,10 @@ mongoose
             )
     .then(() => {
         console.log('Conectado ao MONGODB!')
-        app.listen(3333)
+        app.listen({
+            host: '0.0.0.0',
+            port: process.env.PORT ?? 3333,
+        })
     })
     .catch((err) => console.log(err))
 
