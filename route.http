@@ -1,17 +1,17 @@
-POST http://localhost:3333/person
+POST https://dataside-project.onrender.com/person
 Content-Type: application/json
 
 {
-    "name": "Junior",
+    "name": "luzais",
     "email": "junior@gmail.com",
     "birth": "03052500"
 }
 
 ###
-GET http://localhost:3333/person
+GET https://dataside-project.onrender.com/person
 
 ###
-PATCH http://localhost:3333/person/65a4de589c574e53d0b1ac22
+PATCH https://dataside-project.onrender.com/person/65a4de589c574e53d0b1ac22
 Content-Type: application/json
 
 {
@@ -21,4 +21,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3333/person/65a4e9c9cb9d8d68c3f049bb
+DELETE https://dataside-project.onrender.com/person/65a4e9c9cb9d8d68c3f049bb
