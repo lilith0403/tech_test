@@ -1,0 +1,24 @@
+POST http://localhost:3333/person
+Content-Type: application/json
+
+{
+    "name": "Junior",
+    "email": "junior@gmail.com",
+    "birth": "03052500"
+}
+
+###
+GET http://localhost:3333/person
+
+###
+PATCH http://localhost:3333/person/65a4de589c574e53d0b1ac22
+Content-Type: application/json
+
+{
+    "name": "Lucca4",
+    "email": "lucca0403@gmail.com",
+    "birth": "04032003"
+}
+
+###
+DELETE http://localhost:3333/person/65a4e9c9cb9d8d68c3f049bb
