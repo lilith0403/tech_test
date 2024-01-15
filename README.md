@@ -66,9 +66,8 @@ Execute o seguinte comando para iniciar o servidor:
 
 ```bash
 npm start
-O servidor estará disponível tanto no localhost:<3333> quanto no https://tech-test-rzw4.onrender.com/person
 ```
-Caso deseje mudar o servidor público para o local, basta alterar os endereços no código.
+O servidor estará disponível tanto no localhost:<3333> quanto no endereço: https://tech-test-rzw4.onrender.com/person
 
 # Rotas API
 ## POST
